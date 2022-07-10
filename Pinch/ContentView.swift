@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var isAnimating:Bool = false
     @State private var imageScale: CGFloat = 1
     @State private var imageOffset: CGSize = .zero
+  
     
     func resetImageState() {
         return withAnimation(.spring()) {
@@ -22,6 +23,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack{
+                Color.clear
+                
                 Image("magazine-front-cover")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -61,6 +64,12 @@ struct ContentView: View {
                     isAnimating = true
                 }
             })
+            .overlay(
+            InfoPainelView(scale: imageScale, offset: imageOffset)
+                .padding(.horizontal)
+                .padding(.top, 30)
+            , alignment: .top
+            )
         
         }
         .navigationViewStyle(.stack)
