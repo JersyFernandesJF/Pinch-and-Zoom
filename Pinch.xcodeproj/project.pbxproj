@@ -15,6 +15,7 @@
 		1A67ECDD287B750A000BC12A /* PinchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67ECDC287B750A000BC12A /* PinchUITests.swift */; };
 		1A67ECDF287B750A000BC12A /* PinchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67ECDE287B750A000BC12A /* PinchUITestsLaunchTests.swift */; };
 		1A67ECEF287B8443000BC12A /* InfoPainelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67ECEE287B8443000BC12A /* InfoPainelView.swift */; };
+		1ABFDA40287F41330035E1CF /* ControllImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFDA3F287F41330035E1CF /* ControllImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		1A67ECDC287B750A000BC12A /* PinchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchUITests.swift; sourceTree = "<group>"; };
 		1A67ECDE287B750A000BC12A /* PinchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1A67ECEE287B8443000BC12A /* InfoPainelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPainelView.swift; sourceTree = "<group>"; };
+		1ABFDA3F287F41330035E1CF /* ControllImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				1A67ECEE287B8443000BC12A /* InfoPainelView.swift */,
+				1ABFDA3F287F41330035E1CF /* ControllImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A67ECEF287B8443000BC12A /* InfoPainelView.swift in Sources */,
+				1ABFDA40287F41330035E1CF /* ControllImageView.swift in Sources */,
 				1A67ECC4287B7506000BC12A /* ContentView.swift in Sources */,
 				1A67ECC2287B7506000BC12A /* PinchApp.swift in Sources */,
 			);
